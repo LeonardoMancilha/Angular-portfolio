@@ -1,0 +1,30 @@
+<section class="about-me">
+  <h1>Sobre</h1>
+  <span class="city">São Carlos, São Paulo</span>
+  <p>
+    Formado no curso técnico Informática para Internet pela ETEC Paulino Botelho. Sempre fui apaixonado pela área de tecnologia, quando jovem me deparava com problemas em celulares de terceiros e me via muito interessado em solucionar desempenho dos smartphones e transtornos de funcionamento. Portanto, juntando meu gosto de resolver problemas tecnológicos e a oportunidade de estudo, escolhi focar no front-end.
+  </p>
+  <p class="tecnologias">
+    <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+    <img align="center" alt="Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+    <img align="center" alt="C++" height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+    <img align="center" alt="C" height="30" width="30" src="https://cdn-icons-png.flaticon.com/512/3665/3665923.png">
+    <img align="center" alt="Php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+    <img align="center" alt="Bootstrap" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+    <img align="center" alt="SQL" height="30" width="40" src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png">
+    <img align="center" alt="Figma" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">  
+    <img align='center' alt="PhotoShop" width='40' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/photoshop.svg">
+    </p>
+    <form action="post">
+      <h1>Formulário de Contato</h1>
+      <label for="name">Name: {{name.value}}</label>
+      <input id="name" type="text" [formControl]="name">
+      <label for="email">Email: {{email.value}}</label>
+      <input id="email" type="email" [formControl]="email">
+      <button type="button" (click)="updateName()">Update Name</button>
+      <button type="button" (click)="updateEmail()">Update Email</button>
+    </form>
+</section>

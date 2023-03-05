@@ -1,0 +1,17 @@
+<div *ngFor="let card of cards">
+    <app-card
+titulo="{{card?.titulo}}"
+tituloProjeto="{{card?.tituloProjeto}}"
+descricaoProjeto="{{card?.descricaoProjeto}}"
+paragrafoTecnologias="{{card?.paragrafoTecnologias}}"
+imagemUrl="{{card?.imagemUrl}}"
+linkImagem="{{card?.linkImagem}}"
+icone="{{card?.icone}}"
+redeSocial="{{card?.redeSocial}}"
+></app-card>
+</div>
+<p style="text-align: center;">
+    <a href="https://github.com/LeonardoMancilha?tab=repositories" target="_blank">
+    <button class="btn"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"> Clique aqui para ver mais repositórios!</button>
+    </a>
+</p>

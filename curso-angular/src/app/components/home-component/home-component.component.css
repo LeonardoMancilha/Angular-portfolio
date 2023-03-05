@@ -1,0 +1,75 @@
+h1, p {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.main__left {
+   width: 50%;
+   margin: 5rem 0;
+}
+
+.main_right {
+   width: 40%;
+   margin: 2rem 0;
+}
+
+.main__button {
+   display: flex;
+   width: 340px;
+   justify-content: flex-end;
+   margin: 40px 180px 10px 197px;
+}
+
+a {
+   margin-right: 37px;
+}
+
+button {
+   cursor: pointer;
+   font-size: 1rem;
+   color: #fff;
+   padding: 12px 40px;
+}
+
+button.mylinkedin {
+   background-color: #0A66C2;
+}
+
+button.mygithub {
+   background-color: #352c2c;
+}
+
+img {
+   width: 30%;
+   border-radius: 10px;
+   will-change: transform;
+   transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+   margin-left: 53rem;
+   margin-top: -20rem;
+}
+
+.myname {
+   text-align: center;
+   font-weight: 200;
+}
+
+@media (max-width: 880px) {
+.main__right img {
+    display: none;
+}
+.main__left {
+   width: 100%;
+}
+.main__button {
+   width: 45%;
+}
+}
+
+@media (max-width: 1304px) {
+   img {
+      margin-left: 36rem;
+   }
+   .main__button {
+      width: 48%;
+   }
+}

@@ -1,0 +1,17 @@
+section {
+    display: grid;
+    justify-items: center;
+}
+p {
+    text-align: justify;
+    width: 51%;
+    margin-top: 2rem
+}
+
+@media (max-width: 956px) {
+    
+    span {
+        width: 17rem;
+        text-align: center;
+    }
+}

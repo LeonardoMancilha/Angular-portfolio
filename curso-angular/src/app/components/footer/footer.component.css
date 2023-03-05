@@ -1,0 +1,27 @@
+
+footer {
+    display: flex;
+    margin: 40px 180px 40px 180px;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: #0A66C2;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 890px) {
+    footer {
+      margin: 2px 12px 25px 12px;
+      font-size: 0.8rem;
+}   footer img {
+      margin: 0;
+    }
+}

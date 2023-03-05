@@ -1,0 +1,25 @@
+<section class="projects" id="projetos" data-anime="js-scroll">
+  <h1 [ngClass]="[corTexto() ? 'textored' : 'textoblue']">{{titulo}}</h1>
+  <div class="projects__wrapper">
+    <section class="projects__card">
+      <a [href]="linkImagem" target="_blank">
+      <img [src]="imagemUrl" alt="Imagem do formulário representando meu projeto número 1" class="project-img">
+      </a>
+      <h2 [ngStyle]="corTexto()?{'font-family': 'sans-serif'} : {'font-family': 'monospace'}">{{tituloProjeto}}</h2>
+      <p>
+        {{descricaoProjeto}}
+      </p>
+      <span *ngIf="corTexto()">{{paragrafoTecnologias}}</span>
+      <a [href]="linkImagem" target="_blank">
+        <div class="projects__card-button">
+          <img [src]="icone" alt="link do repositório no github">
+          {{redeSocial}}
+        </div>
+      </a>
+  </section>
+</div>
+</section>
+<button class="contador" (click)="valueChange()"> <!--Exemplo de Input e Output-->
+  Contador
+</button>
+<h1>{{valueinitial}}</h1>
