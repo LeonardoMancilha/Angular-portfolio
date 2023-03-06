@@ -8,7 +8,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ExperienciasComponent } from './components/pages/experiencias/experiencias.component';
 import { CursosComponent } from './components/pages/cursos/cursos.component';
 import { LinguagensComponent } from './components/pages/linguagens/linguagens.component';
-import { ProjetosComponent } from './components/pages/projetos/projetos.component';
 import { RouterModule } from '@angular/router';
 import { CardComponent } from './components/shared/card/card.component';
 import { SobreComponent } from './components/sobre/sobre.component';
@@ -27,7 +26,6 @@ import { CardLinguagemComponent } from './components/shared/card-linguagem/card-
     ExperienciasComponent,
     CursosComponent,
     LinguagensComponent,
-    ProjetosComponent,
     CardComponent,
     SobreComponent,
     CursosComponent,
