@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  
+  ismenuOpen = false;
+  clickMenu(): void {
+    this.ismenuOpen = !this.ismenuOpen;
+  }
 }
