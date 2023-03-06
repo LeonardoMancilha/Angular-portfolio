@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <header>
     <span id="burguer" class="material-symbols-outlined" click="clickMenu()">
-        menu
+        {{ ismenuOpen ? "close" : "menu"}}
     </span>
-    <nav id="itens">
+    <nav id="itens" [class.is-open]="ismenuOpen">
         <ul data-menu="list" id="menu">
             <a [routerLink]="['/']">
                 <li>Home</li>
@@ -23,4 +23,3 @@
         </ul>
     </nav>
 </header>
-<script src="script.js"></script>
