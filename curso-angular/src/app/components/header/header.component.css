@@ -23,7 +23,6 @@ nav ul {
 }
 
 a {
-    text-decoration: none;
     color: #fff;
 }
   
@@ -65,13 +64,13 @@ span {
     font-size: 32px;
     padding: 0.8rem 1rem;
   }
-   .is-open {
+  .is-open {
     display: block;
     background-color: #151515;
     border: none;
     padding: .8rem 1rem;
   } 
-   ul#menu {
+  ul#menu {
     display: block;
     text-align: end;
     margin-right: -15px;
