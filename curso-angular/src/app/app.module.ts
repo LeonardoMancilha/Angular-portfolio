@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 import { CardComponent } from './components/shared/card/card.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { CardCursoComponent } from './components/shared/card-curso/card-curso.component';
-import {ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { CardLinguagemComponent } from './components/shared/card-linguagem/card-linguagem.component';
 
 @NgModule({
