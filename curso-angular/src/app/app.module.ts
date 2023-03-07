@@ -14,8 +14,6 @@ import { SobreComponent } from './components/sobre/sobre.component';
 import { CardCursoComponent } from './components/shared/card-curso/card-curso.component';
 import {ReactiveFormsModule } from '@angular/forms';
 import { CardLinguagemComponent } from './components/shared/card-linguagem/card-linguagem.component';
-/*import { CardLinguagemComponent } from './components/shared/card-linguagem/card-linguagem.component';*/
-
 
 @NgModule({
   declarations: [
@@ -40,11 +38,10 @@ import { CardLinguagemComponent } from './components/shared/card-linguagem/card-
   ],
   exports: [
     CardComponent,
-    
-    /* */
+    CardCursoComponent,
+    CardLinguagemComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-/*CardCursoComponent, CardLinguagemComponent*/
